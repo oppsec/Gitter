@@ -40,7 +40,7 @@ A quick guide of how to contribute with the project.
 ```shell
 1. Create a fork from Gitter repository.
 2. Download the project with git clone https://github.com/your/Gitter.git
-3. cd Hash4Me/
+3. cd Gitter/
 4. Make your changes.
 5. Commit and make a git push.
 6. Open a pull request.
