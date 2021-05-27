@@ -22,7 +22,7 @@ A quick guide of how to install and use Juumla.
 
 ```
 1. Clone the repository with git clone https://github.com/oppsec/Gitter.git
-2. Install the python libraries necessary with pip install -r requirements.txt on the git cloned folder
+2. Install the python libraries with pip install -r requirements.txt
 3. Run Gitter with python or python3 main.py
 ```
 
@@ -39,7 +39,7 @@ A quick guide of how to contribute with the project.
 
 ```shell
 1. Create a fork from Gitter repository.
-2. Download the project with git clone https://github.com/your/GItter.git
+2. Download the project with git clone https://github.com/your/Gitter.git
 3. cd Hash4Me/
 4. Make your changes.
 5. Commit and make a git push.
