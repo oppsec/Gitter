@@ -11,7 +11,7 @@
 
 <br><br>
 
-## 🤔 What's that?
+## 🤔 What's this?
 Gitter is a open-source project created to easily uses the Github's API to get public informations from a Github's Account.
 
 <br><br>
