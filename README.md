@@ -16,6 +16,11 @@ Gitter is a open-source project created to easily uses the Github's API to get p
 
 <br><br>
 
+## 👁‍🗨 Preview
+<img src="design/preview.png" witdth="300" height="400">
+
+<br><br>
+
 ## ⚙️ Set-up
 
 A quick guide of how to install and use Juumla.
