@@ -18,23 +18,27 @@ class Account:
 
 def get_username() -> None:
     """ Define Github account name """
+
     username_input = input(input_name)
-    connect(username_input)
+    api_connect(username_input)
 
 
-def connect(username_input) -> None:
+def api_connect(username_input) -> None:
     """
     Connect to the GitHub API and
     confirm if the account exists
     """
+
     github_api_url = f'https://api.github.com/users/{username_input}'
     response = requests.get(github_api_url, verify=False, timeout=10, allow_redirects=False)
+    status = response.status_code
 
-    get_information(response) if response.status_code == 200 else print(error)
+    get_information(response) if status == 200 else print(error)
 
 
 def get_information(response) -> None:
     """ Capture the JSON response and get the account informations """
+
     print(success)
 
     dump = response.json()
